@@ -9,7 +9,7 @@ just some setting
 - simpl/requirements.txt에서 torch빼고다  
   - pip install gym==0.25.2  
 - mujoco 파일 놓기  
-  - sudo apt install libosmesa6-dev libgl1-mesa-glx libglfw3 patchelf
+  - sudo apt install -y libosmesa6-dev libgl1-mesa-glx libglfw3 patchelf
   - sudo ln -s /usr/lib/x86_64-linux-gnu/libGL.so.1 /usr/lib/x86_64-linux-gnu/libGL.so
   - tar zxf mujoc.tar.gz  
   - 둘 중 하나?
