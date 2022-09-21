@@ -10,3 +10,4 @@ just some setting
 - mujoco 파일 놓기  
   - tar zxf mujoc.tar.gz  
   - .profile LD_LIBRARY_PATH에 :/root/.mujoco/mujoco210/bin 추가  
+  - ssh로 접속 후 `bash /tmp/vessl/config-map/run.sh`
