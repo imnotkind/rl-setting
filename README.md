@@ -15,7 +15,7 @@ just some setting
   - tar zxf mujoc.tar.gz  
   - 둘 중 하나?
     - `sed -i "s|x86_64-linux-gnu|x86_64-linux-gnu:/root/.mujoco/mujoco210/bin|" /root/.profile  && nohup /etc/init.d/jupyter restart &`
-    - `sed -i "s|x86_64-linux-gnu|x86_64-linux-gnu:/root/.mujoco/mujoco210/bin|" /root/vessl_run.sh && bash /root/vessl_run.sh`
+    - `sed -i "s|x86_64-linux-gnu|x86_64-linux-gnu:/root/.mujoco/mujoco210/bin|" /root/nfs/vessl_run.sh && bash /root/nfs/vessl_run.sh`
 
 ## vessl-nfs
 - sudo apt update
