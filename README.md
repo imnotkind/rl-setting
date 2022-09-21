@@ -21,3 +21,7 @@ just some setting
 - sudo apt update
 - ln -s /input/rl nfs
 - ssh key (id_rsa)
+- update_setting.sh (first=0)  
+- pip install -r requirements.txt
+- mujoco 파일 놓기  
+  - `mkdir /root/.mujoco && cp /root/nfs/mujoco210-linux-x86_64.tar.gz /root/.mujoco && cd /root/.mujoco && tar zxf mujoco210-linux-x86_64.tar.gz`
