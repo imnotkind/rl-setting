@@ -4,7 +4,7 @@ just some setting
 
 ## vessl
 
-- update_metaworld.sh (first=1)  
+- update_setting.sh (first=1)  
 - simpl/requirements.txt에서 torch빼고다  
   - pip install gym==0.25.2  
 - mujoco 파일 놓기  
