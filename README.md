@@ -14,8 +14,8 @@ just some setting
   - sudo ln -s /usr/lib/x86_64-linux-gnu/libGL.so.1 /usr/lib/x86_64-linux-gnu/libGL.so
   - tar zxf mujoc.tar.gz  
   - 둘 중 하나?
-    - sed "s|x86_64-linux-gnu|x86_64-linux-gnu:/root/.mujoco/mujoco210/bin|" /root/.profile  && `nohup /etc/init.d/jupyter restart &`
-    - sed "s|x86_64-linux-gnu|x86_64-linux-gnu:/root/.mujoco/mujoco210/bin|" /tmp/vessl/config-map/run.sh && `bash /tmp/vessl/config-map/run.sh`
+    - `sed "s|x86_64-linux-gnu|x86_64-linux-gnu:/root/.mujoco/mujoco210/bin|" /root/.profile  && nohup /etc/init.d/jupyter restart &`
+    - `sed "s|x86_64-linux-gnu|x86_64-linux-gnu:/root/.mujoco/mujoco210/bin|" /tmp/vessl/config-map/run.sh && bash /tmp/vessl/config-map/run.sh`
 
 ## vessl-nfs
 - sudo apt update
