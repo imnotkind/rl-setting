@@ -18,3 +18,7 @@ just some setting
     - .profile LD_LIBRARY_PATH에 :/root/.mujoco/mujoco210/bin 추가  && `/etc/init.d/jupyter start`
     - sed "s|x86_64-linux-gnu|x86_64-linux-gnu:/root/.mujoco/mujoco210/bin|" /tmp/vessl/config-map/run.sh && ssh로 접속 후 `bash /tmp/vessl/config-map/run.sh`
 
+## vessl-nfs
+- sudo apt update
+- ln -s /input/rl nfs
+- ssh key (id_rsa)
