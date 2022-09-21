@@ -48,6 +48,6 @@ then
         sudo apt install -y libosmesa6-dev libgl1-mesa-glx libglfw3 patchelf
         sudo ln -s /usr/lib/x86_64-linux-gnu/libGL.so.1 /usr/lib/x86_64-linux-gnu/libGL.so
         mkdir /root/.mujoco && cp /root/nfs/mujoco210-linux-x86_64.tar.gz /root/.mujoco && cd /root/.mujoco && tar zxf mujoco210-linux-x86_64.tar.gz
-        sed "s|x86_64-linux-gnu|x86_64-linux-gnu:/root/.mujoco/mujoco210/bin|" /root/.profile
+        sed -i "s|x86_64-linux-gnu|x86_64-linux-gnu:/root/.mujoco/mujoco210/bin|" /root/.profile
         /etc/init.d/jupyter restart
 fi
