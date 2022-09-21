@@ -6,7 +6,7 @@ just some setting
 
 - sudo apt update
 - ln -s /input/rl nfs
-- ssh key
+- ssh key (id_rsa)
 - update_setting.sh (first=1)  
 - simpl/requirements.txt에서 torch빼고다  
   - pip install gym==0.25.2  
