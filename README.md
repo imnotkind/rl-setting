@@ -17,6 +17,7 @@ just some setting
 - ssh key (id_rsa)
 - cd /root/nfs && update_setting.sh (first=0, nfs=1)  
 - restart jupyter with mujoco env (LD_LIBRARY_PATH)
+  - sed -i "s|x86_64-linux-gnu|x86_64-linux-gnu:/root/.mujoco/mujoco210/bin|" /root/.profile
   - login workspace to ssh
   - assure env LD_LIBRARY_PATH has mujoco path
   - /etc/init.d/jupyter restart
