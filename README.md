@@ -5,6 +5,7 @@ just some setting
 ## vessl
 - ssh key (id_rsa)
 - cd /root && update_setting.sh (first=1, nfs=0)
+- pip install -r requirements.txt (in this repo)
 - restart jupyter with mujoco env (LD_LIBRARY_PATH)
   - login workspace to ssh
   - assure env LD_LIBRARY_PATH has mujoco path
