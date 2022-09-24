@@ -20,4 +20,4 @@ just some setting
   - `sed -i "s|x86_64-linux-gnu|x86_64-linux-gnu:/root/.mujoco/mujoco210/bin|" /root/.profile`
   - login workspace to ssh
   - assure env LD_LIBRARY_PATH has mujoco path
-  - /etc/init.d/jupyter restart
+  - `/etc/init.d/jupyter restart`
