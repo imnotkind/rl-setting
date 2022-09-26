@@ -8,8 +8,8 @@ just some setting
 - pip install -r requirements.txt (in this repo)
 - restart jupyter with mujoco env (LD_LIBRARY_PATH)
   - login workspace to ssh
-  - assure env LD_LIBRARY_PATH has mujoco path
-  - /etc/init.d/jupyter restart
+  - assure env LD_LIBRARY_PATH has mujoco path (if not, `sed -i "s|x86_64-linux-gnu|x86_64-linux-gnu:/root/.mujoco/mujoco210/bin|" /root/.profile` and relogin)
+  - `/etc/init.d/jupyter restart`
 
 
 ## vessl-nfs
